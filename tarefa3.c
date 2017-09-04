@@ -36,11 +36,12 @@ void imprime(float t1[], float t2[], float t3[], float t4[])
 }
 
 
-main() {
+int main()
+{
 
-int i;
-float K;
-float x1, x2, x3, x4;
+	int i;
+	float K;
+	float x1, x2, x3, x4;
 
 	float t1[5], t2[5], t3[5], t4[5], ma[5];
 
