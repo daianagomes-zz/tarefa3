@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void imprime(float t1[], float t2[], float t3[], float t4[])
 {
 	int i;
