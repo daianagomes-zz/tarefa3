@@ -1,3 +1,39 @@
+void imprime(float t1[], float t2[], float t3[], float t4[])
+{
+	int i;
+
+		printf("\n");
+
+		for(i=0; i<5; i++)
+			{
+			printf("%.1f \t", t1[i]);
+			}
+
+				printf("\n");
+
+		for(i=0; i<5; i++)
+			{
+			printf("%.1f \t", t2[i]);
+			}
+
+				printf("\n");
+
+		for(i=0; i<5; i++)
+			{
+			printf("%.1f \t", t3[i]);
+			}
+
+				printf("\n");
+
+		for(i=0; i<5; i++)
+			{
+			printf("%.1f \t", t4[i]);
+			}
+
+				printf("\n");
+}
+
+
 main() {
 
 int i;
