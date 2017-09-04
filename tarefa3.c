@@ -76,5 +76,31 @@ float x1, x2, x3, x4;
 			printf("\n");
 
 
-					
+		//imprimindo					
 		imprime(t1,t2,t3,t4); 
+		
+		//Zerando os elementos abaixo da primeiro.c
+		if(t1[0]!=0)
+		{
+			K=(t2[0]/t1[0]);
+
+			for(i=0; i<5; i++)
+			{
+				t2[i]=t2[i]-K*t1[i];
+			}
+		}
+		else
+		{
+			for(i=0; i<5; i++)
+			{
+				ma[i]=t1[i];
+			}
+		}
+
+		for(i=0; i<5; i++)
+		{
+				t1[i]=t2[i];
+				t2[i]=ma[i];
+		}
+
+}
